@@ -1,0 +1,178 @@
+* {
+    margin: 0
+}
+
+body {
+    background-color: #202124;
+    font-size: 13px;
+    font-family: arial, sans-serif;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+    justify-content: right;
+    /* padding: top right bottom left */
+    padding: 20px 20px 0 0;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.fa-myown {
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 50%;
+    transition: .3s;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.fa-myown:hover {
+    background-color: #2c2d30;
+}
+
+.initial {
+    background-color: #bf360d;
+    /* padding: top right bottom left */
+    padding: 10px 14px 10px 14px;
+    border-radius: 50%;
+    font-size: 16px;
+}
+
+.center-section {
+    text-align: center;
+}
+
+.seasonal-logo img {
+    width: 380px;
+}
+
+.search-area {
+    width: 550px;
+    height: 45px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: 20px auto 0px auto;
+    border-radius: 30px;
+    background-color: #4d5157;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.search-area .line {
+    width: 1px;
+    height: 30px;
+    background-color: white;
+}
+
+
+
+.search-area input {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: white;
+    width: 100%;
+    /* height: 100%; */
+    /* padding: 0 20px;*/
+    font-size: 16px;
+}
+
+.fa-magnifying-glass {
+    color: #c1c1c1
+}
+
+.fa-nn {
+    font-size: 20px;
+    color: rgb(255, 111, 0)
+}
+
+.link-buttons {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.link-buttons a {
+    color: white;
+    text-decoration: none;
+    background-color: #303134;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+
+.link-buttons a:hover {
+    border: 1px solid grey;
+}
+
+.language-links {
+    color: white;
+}
+
+.language-links a {
+    color: #9ac3ff;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.language-links a:hover {
+    text-decoration: underline;
+
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #171717;
+}
+
+footer .footer-top {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    color: white;
+    border-bottom: 2px solid #313335;
+}
+
+footer .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+footer .footer-left-menu {
+    display: flex;
+    gap: 20px;
+}
+
+footer .footer-right-menu {
+    display: flex;
+    gap: 20px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
